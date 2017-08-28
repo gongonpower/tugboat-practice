@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 100%;
+            font-weight: normal;
+        }
+        a {
+            text-decoration: none;
+        }
+        strong {
+            font-weight: normal;
+        }
+        #header {
+            /* background:red linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.5) 100%); */
+            /* background: red linear-gradient(hsl(0,0,100) 0%, hsl(0,0,100) 50%, hsl(0,0,50) 100%); */
+            /* background: red linear-gradient(hsla(0,0,100,0), hsla(0,0,100,0.5)); */
+            background: #b91c1a linear-gradient(transparent, transparent 50%, hsla(0,0%,0%,0.5));
+        }
+        #logo h1 {
+            float: left;
+        }
+        #logo p {
+            float: right;
+        }
+        #menu {
+            margin: 0 auto;
+            max-width: 62.5em;
+            min-width: 42.5em;
+        }
+        #menu ul li {
+            float: left;
+            width: 20%;
+        }
+        #menu ul li a {
+            padding: 10px 20px;
+            color: white;
+            display: block;
+            width: 100%;
+        }
+        #menu ul li a:hover {
+            background-color: hsla(0,0%,0%, 0.3);
+        }
+        #menu ul li a span {
+            font-size: 0.8em;
+            display: block;
+            color: #ccc;
+        }
+        #wrap {
+            margin: 0 auto;
+            max-width: 62.5em;
+            min-width: 42.5em;
+        }
+        #main {
+            width: 73%;
+            float: left;
+        }
+        #secondary {
+            width: 25%;
+            float: right;
+        }
+        #specials li {
+            float: left;
+            width: 25%;
+        }
+        .entry-meta {
+            width: 35%;
+            float: left;
+        }
+        .entry-body {
+            width: 63%;
+            float: right;
+        }
+        .group::after{
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    
+    </style>
+    
+</head>
+
+
+<body>
+    <div id="header" class="group">
+        <div id="logo" class="group">
+            <h1><img src="logo-lifo.gif" alt="Tugboat Logo"></h1>
+            <p>Pull you since 2009</p>
+        </div>
+        <div id="menu" class="group">
+            <ul>
+                <li>
+                    <a href="#">
+                        <Strong>Home</Strong>
+                        <span>News and Trends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>Our Coffee</Strong>
+                        <span>Handcrafted Beans</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>Store</Strong>
+                        <span>Shop Online</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>About</Strong>
+                        <span>Company Info</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="wrap" class="group">
+        <div id="main" class="group">
+            <h2>This weeks specials</h2>
+            <ul id="specials" class="group">
+                <li>
+                    <img src="" alt="Fisherman photo">
+                    <p>Fisherman's Brew <span>.89/lb</span></p>
+                </li>
+                <li>
+                    <img src="" alt="Boathouse photo">
+                    <p>Boathouse Bold <span>$12.50/lb</span></p>
+                </li>
+                <li>
+                    <img src="" alt="Deadly Decaf photo">
+                    <p>Deadly Decaf <span>$7.49/lb</span></p>
+                </li>
+            </ul>
+            <h2>Coffee News and Goings on</h2>
+            <ul class="group">
+                <li class="entry-group group">
+                    <h3>New Coffee Varieties</h3>
+                    <div class="entry-meta">
+                        <p>May 13, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Bernard Milken</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+                <li class="entry-group group">
+                    <h3>Grand Opending in Salem, massachuetts</h3>
+                    <div class="entry-meta">
+                        <p>April 8, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Stacy Alehouse</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+                <li class="entry-group group">
+                    <h3>New Study Says Coffee "Good"</h3>
+                    <div class="entry-meta">
+                        <p>January 10, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Dunder Shellfish</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="secondary" class="group">
+            <div id="drinks-menu">
+                <h3>Drink Menu</h3>
+                <ul>
+                    <li>drink1</li>
+                    <li>drink2</li>
+                    <li>drink3</li>
+                </ul>
+            </div>
+            <div id="press">
+                <h3>Press</h3>
+                <ul>
+                    <li>
+                        <blockquote>“Tugboat Coffee just may be the most amazing coffee I've ever tasted.”</blockquote>
+                        <p>Marting Farmer</p>
+                    </li>
+                    <li>
+                        <blockquote>“A rare treasure, amongst coffee-related web sites. If six stars were possible, I’d rate it … seven.”</blockquote>
+                        <p>Bean There, Drunk</p>
+                    </li>
+                    <li>
+                        <blockquote>“Mmmmm...”</blockquote>
+                        <p>Happy Customer</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="group">
+            Copyright © 2009. Tugboat Coffee is a ficticious demonstration, handcrafted by <a href="#">SimpleBits</a> 
+    </div>
+
+</body>
+
+</html>
