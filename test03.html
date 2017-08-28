@@ -12,6 +12,7 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 100%;
             font-weight: normal;
+            background-color: #f5e9c1;
         }
         a {
             text-decoration: none;
@@ -84,6 +85,42 @@
         .entry-body {
             width: 63%;
             float: right;
+        }
+        #drinks-menu {
+            border: 10px solid white;
+            margin: 10px;
+            padding: 10px;
+            background-color: #ccf1d7;
+            border-radius: 10px;
+        }
+        #drinks-menu h3 {
+            color: #900d0d;
+            font-size: 1.2em;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        #drinks-menu ul {
+            margin: 10px 0;
+        }
+        #drinks-menu li {
+            padding: 5px;
+            position: relative;
+        }
+        #drinks-menu li a {
+           padding: 5px 30px 5px 15px;
+            display: block;
+            border-radius: 3px;
+        }
+
+        #drinks-menu li a:hover {
+            background-color: hsla(0,0%,0%,0.1);
+        }
+        #drinks-menu li a span {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-style: italic;
+            color: #9c0505;
         }
         .group::after{
             content: ".";
@@ -207,9 +244,10 @@
             <div id="drinks-menu">
                 <h3>Drink Menu</h3>
                 <ul>
-                    <li>drink1</li>
-                    <li>drink2</li>
-                    <li>drink3</li>
+                    <li><a href="">Drink1 <span>$9.57</span></a></li>
+                    <li><a href="">Drink2 <span>$6.32</span></a></li>
+                    <li><a href="">Drink3 <span>$2.41</span></a></li>
+                    <li><a href="">Drink4 <span>$19.68</span></a></li>
                 </ul>
             </div>
             <div id="press">
