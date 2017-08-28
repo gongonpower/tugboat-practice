@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+        #logo h1 {
+            float: left;
+        }
+        #logo p {
+            float: right;
+        }
+        #menu {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        #menu ul li {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+        #menu ul li strong {
+            display: block;
+        }
+        #menu ul li a {
+            margin: 0;
+            display: inline-block;
+            padding: 5px 10px;
+            width: 150px;
+        }
+        #menu ul li a:link {
+           background-color: #ccc; 
+        }
+        #menu ul li a:hover {
+            background-color: #eee;
+        }
+        #wrap {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        #main {
+            max-width: 730px;
+            float: left;
+        }
+        #secondary {
+            max-width: 250px;
+            float: right;
+        }
+        #specials li {
+            display: inline-block;
+            
+        }
+        #specials li span {
+            display: block;
+        }
+        #main .entry-meta {
+            max-width: 30%;
+            float: left;
+        }
+        #main .entry-body {
+            max-width: 65%;
+            float: right;
+        }
+
+        .group:after {
+            content: ".";
+            clear: both;
+            height: 0;
+            display: block;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="header" class="group">
+        <div id="logo" class="group">
+            <h1><img src="logo-lifo.gif" alt="Tugboat Logo"></h1>
+            <p>Pull you since 2009</p>
+        </div>
+        <div id="menu" class="group">
+            <ul>
+                <li>
+                    <a href="#">
+                        <Strong>Home</Strong>
+                        <span>News and Trends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>Our Coffee</Strong>
+                        <span>Handcrafted Beans</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>Store</Strong>
+                        <span>Shop Online</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <Strong>About</Strong>
+                        <span>Company Info</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="wrap" class="group">
+        <div id="main" class="group">
+            <h2>This weeks specials</h2>
+            <ul id="specials">
+                <li>
+                    <img src="" alt="Fisherman photo">
+                    <p>Fisherman's Brew <span>.89/lb</span></p>
+                </li>
+                <li>
+                    <img src="" alt="Boathouse photo">
+                    <p>Boathouse Bold <span>$12.50/lb</span></p>
+                </li>
+                <li>
+                    <img src="" alt="Deadly Decaf photo">
+                    <p>Deadly Decaf <span>$7.49/lb</span></p>
+                </li>
+            </ul>
+            <h2>Coffee News and Goings on</h2>
+            <ul class="group">
+                <li class="entry-group group">
+                    <h3>New Coffee Varieties</h3>
+                    <div class="entry-meta">
+                        <p>May 13, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Bernard Milken</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+                <li class="entry-group group">
+                    <h3>Grand Opending in Salem, massachuetts</h3>
+                    <div class="entry-meta">
+                        <p>April 8, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Stacy Alehouse</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+                <li class="entry-group group">
+                    <h3>New Study Says Coffee "Good"</h3>
+                    <div class="entry-meta">
+                        <p>January 10, 2009</p>
+                        <p>Posted at 10:14 AM</p>
+                        <p>by Dunder Shellfish</p>
+                    </div>
+                    <div class="entry-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum id iure atque? Facere quas, voluptate
+                            possimus repudiandae perspiciatis cupiditate incidunt natus rerum debitis aliquid, dolore placeat
+                            ipsa sint recusandae vero?</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="secondary" class="group">
+            <div id="drinks-menu">
+                <h3>Drink Menu</h3>
+                <ul>
+                    <li>drink1</li>
+                    <li>drink2</li>
+                    <li>drink3</li>
+                </ul>
+            </div>
+            <div id="press">
+                <h3>Press</h3>
+                <ul>
+                    <li>
+                        <blockquote>“Tugboat Coffee just may be the most amazing coffee I've ever tasted.”</blockquote>
+                        <p>Marting Farmer</p>
+                    </li>
+                    <li>
+                        <blockquote>“A rare treasure, amongst coffee-related web sites. If six stars were possible, I’d rate it … seven.”</blockquote>
+                        <p>Bean There, Drunk</p>
+                    </li>
+                    <li>
+                        <blockquote>“Mmmmm...”</blockquote>
+                        <p>Happy Customer</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="group">
+            Copyright © 2009. Tugboat Coffee is a ficticious demonstration, handcrafted by <a href="#">SimpleBits</a> 
+    </div>
+
+</body>
+
+</html>
