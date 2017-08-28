@@ -47,20 +47,25 @@
             color: white;
             display: block;
             width: 100%;
-            transition: background-color 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
         #menu ul li a:hover {
             background-color: hsla(0,0%,0%, 0.3);
         }
+        #menu ul li a:hover span {
+            color: white;
+        }
         #menu ul li a strong {
             padding: 10px 20px 2px 20px;
             text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            font-weight: bold;
         }
         #menu ul li a span {
             font-size: 0.8em;
             display: block;
             color: #ddd;
             padding: 4px 20px 2px 20px;
+            transition: all 0.3s ease-in-out;
         }
         #wrap {
             margin: 0 auto;
